@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  title: 'AV.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Auke Vandendriessche',
-  role: 'Automation Engineer',
+  role: 'Reliability Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'As a Master of Science in Electrical Engineering with a focus on Automation, I bring a unique blend of technical expertise and practical experience to the field of Reliability Engineering. My background in electromechanical engineering, coupled with hands-on experience in various industrial settings, has honed my skills in maintenance 4.0, root cause analysis, and lean six sigma methodologies. I am passionate about continuous improvement and leveraging cutting-edge technologies to enhance operational efficiency.',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/aukevdd/',
+    github: 'https://github.com/AukeVDD',
   },
 }
 
@@ -21,26 +21,26 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'PMSM In-Wheel Motor Design',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'Designed a Permanent Magnet Synchronous Motor (PMSM) in-wheel motor for racing applications as part of my Master\'s thesis. This project involved advanced electrical engineering concepts and practical motorsport applications.',
+    stack: ['Electrical Engineering', 'Motor Design', 'Racing Technology'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
+    name: 'UGent Racing: Electrical Autonomous Race Car',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'Part of the Team Electrical High Voltage, responsible for the drivetrain of an electrical autonomous race car. This project combines cutting-edge autonomous technology with high-performance electric vehicle systems.',
+    stack: ['Electrical Systems', 'Autonomous Vehicles', 'Drivetrain Engineering'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 3',
+    name: 'Univision Computer Vision Implementation',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
+      'Worked alongside a service engineer to implement computer vision applications during an internship at Mohawk Industries Inc. This project involved integrating advanced visual recognition systems into industrial processes.',
+    stack: ['Computer Vision', 'Industrial Automation', 'Python'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
@@ -49,23 +49,25 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Maintenance 4.0',
+  'Root Cause Analysis',
+  'Lean Six Sigma',
+  'Value Stream Mapping',
+  'Electrical Engineering',
+  'Automation',
+  'Motor Design',
+  'Computer Vision',
+  'Industrial Automation',
+  'Python',
+  'Dutch (Native)',
+  'English (Good)',
+  'French (Good)',
+  'German (Sufficient)',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'auke.vandendriessche@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
