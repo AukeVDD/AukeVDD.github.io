@@ -1,3 +1,5 @@
+import UgentRacingLogo from './img/UgentRacing_logo.png'
+
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://rjshkhr.github.io/cleanfolio',
@@ -35,6 +37,7 @@ const projects = [
     stack: ['Electrical Systems', 'Autonomous Vehicles', 'Drivetrain Engineering'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
+    image: UgentRacingLogo
   },
   {
     name: 'Univision Computer Vision Implementation',
@@ -43,7 +46,7 @@ const projects = [
     stack: ['Computer Vision', 'Industrial Automation', 'Python'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
-  },
+  }
 ]
 
 const skills = [

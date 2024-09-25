@@ -33,12 +33,14 @@ const PasswordPage = () => {
     <div id='top' className={`${themeName} app`}>
       <div className='password-container'>
         <h1>Enter Password</h1>
-        <input
-          type='password'
-          placeholder='Password'
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-        />
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+          <input
+            type='password'
+            placeholder='Password'
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+        </div>
         <button type='button' onClick={checkPassword}>Submit</button>
         {error && <p className='error-message'>Incorrect password. Password is on resume.</p>}
       </div>
