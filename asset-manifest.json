@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ef1a4211.chunk.css",
-    "main.js": "/static/js/main.5995402a.chunk.js",
-    "main.js.map": "/static/js/main.5995402a.chunk.js.map",
+    "main.js": "/static/js/main.4253bbbf.chunk.js",
+    "main.js.map": "/static/js/main.4253bbbf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.44d54374.js",
     "runtime-main.js.map": "/static/js/runtime-main.44d54374.js.map",
     "static/js/2.173c5687.chunk.js": "/static/js/2.173c5687.chunk.js",
@@ -10,12 +10,14 @@
     "index.html": "/index.html",
     "static/css/main.ef1a4211.chunk.css.map": "/static/css/main.ef1a4211.chunk.css.map",
     "static/js/2.173c5687.chunk.js.LICENSE.txt": "/static/js/2.173c5687.chunk.js.LICENSE.txt",
+    "static/media/Mohawk_logo.a7a1f257.jpg": "/static/media/Mohawk_logo.a7a1f257.jpg",
+    "static/media/UGent_logo.099838c7.png": "/static/media/UGent_logo.099838c7.png",
     "static/media/UgentRacing_logo.0aade81f.png": "/static/media/UgentRacing_logo.0aade81f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.44d54374.js",
     "static/js/2.173c5687.chunk.js",
     "static/css/main.ef1a4211.chunk.css",
-    "static/js/main.5995402a.chunk.js"
+    "static/js/main.4253bbbf.chunk.js"
   ]
 }
