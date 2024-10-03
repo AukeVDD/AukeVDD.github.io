@@ -4,7 +4,7 @@ import UGentLogo from './img/UGent_logo.png'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
+  homepage: 'https://aukevdd.github.io',
   title: 'AV.',
 }
 
