@@ -1,4 +1,6 @@
 import UgentRacingLogo from './img/UgentRacing_logo.png'
+import MohawkLogo from './img/Mohawk_logo.jpg'
+import UGentLogo from './img/UGent_logo.png'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -29,6 +31,7 @@ const projects = [
     stack: ['Electrical Engineering', 'Motor Design', 'Racing Technology'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
+    image: UGentLogo
   },
   {
     name: 'UGent Racing: Electrical Autonomous Race Car',
@@ -46,6 +49,7 @@ const projects = [
     stack: ['Computer Vision', 'Industrial Automation', 'Python'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
+    image: MohawkLogo
   }
 ]
 
