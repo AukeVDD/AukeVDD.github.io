@@ -24,8 +24,8 @@ const ProjectContainer = ({ project }) => {
       <h3>{project.name}</h3>
 
       <p className='project__description'>{project.description}</p>
-      {project.image && (
-        <img src={project.image} alt={`${project.name} screenshot`} className='project__image' />
+      {project.logo && (
+        <img src={project.logo} alt={`${project.name} screenshot`} className='project__image' />
       )}
       {project.stack && (
         <ul className='project__stack'>

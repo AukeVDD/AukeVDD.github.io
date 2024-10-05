@@ -7,13 +7,18 @@ const ProjectDetails = () => (
     {projects.map((project) => (
       <div key={project.name} className='project-details__content' id={project.id}>
         <div className='project-details__images'>
-          {project.image && (
-            <img src={project.image} alt={`${project.name} logo`} className='project-details__image' />
-          )}
+          {project.images && project.images.map((image, index) => (
+            <img 
+              key={image}  // Use the image URL as the key
+              src={image} 
+              alt={`${project.name} ${index + 1}`} 
+              className='project-details__image' 
+            />
+          ))}
         </div>
         <div className='project-details__text'>
           <h3>{project.name}</h3>
-          <p>{project.description}</p>
+          <p>{project.details}</p>
           <p>Stack: {project.stack.join(', ')}</p>
           {project.sourceCode && (
             <a href={project.sourceCode} className='link link--icon'>
