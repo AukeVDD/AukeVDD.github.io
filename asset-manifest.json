@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.3b7a37e3.chunk.css",
-    "main.js": "/static/js/main.5d629447.chunk.js",
-    "main.js.map": "/static/js/main.5d629447.chunk.js.map",
+    "main.js": "/static/js/main.b05524b5.chunk.js",
+    "main.js.map": "/static/js/main.b05524b5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.44d54374.js",
     "runtime-main.js.map": "/static/js/runtime-main.44d54374.js.map",
     "static/js/2.09f2add7.chunk.js": "/static/js/2.09f2add7.chunk.js",
@@ -10,14 +10,19 @@
     "index.html": "/index.html",
     "static/css/main.3b7a37e3.chunk.css.map": "/static/css/main.3b7a37e3.chunk.css.map",
     "static/js/2.09f2add7.chunk.js.LICENSE.txt": "/static/js/2.09f2add7.chunk.js.LICENSE.txt",
+    "static/media/FullMotorSetup.21b7b74e.png": "/static/media/FullMotorSetup.21b7b74e.png",
     "static/media/Mohawk_logo.a7a1f257.jpg": "/static/media/Mohawk_logo.a7a1f257.jpg",
+    "static/media/MotorFlux.5d276c17.jpg": "/static/media/MotorFlux.5d276c17.jpg",
+    "static/media/UGentRacingArtemis.eb5cec63.jpg": "/static/media/UGentRacingArtemis.eb5cec63.jpg",
+    "static/media/UGentRacing_Teamfoto.0ac1f34b.jpg": "/static/media/UGentRacing_Teamfoto.0ac1f34b.jpg",
     "static/media/UGent_logo.099838c7.png": "/static/media/UGent_logo.099838c7.png",
-    "static/media/UgentRacing_logo.0aade81f.png": "/static/media/UgentRacing_logo.0aade81f.png"
+    "static/media/UgentRacing_logo.0aade81f.png": "/static/media/UgentRacing_logo.0aade81f.png",
+    "static/media/UnilinCorporate_Logo_Favicon.cb9b6616.png": "/static/media/UnilinCorporate_Logo_Favicon.cb9b6616.png"
   },
   "entrypoints": [
     "static/js/runtime-main.44d54374.js",
     "static/js/2.09f2add7.chunk.js",
     "static/css/main.3b7a37e3.chunk.css",
-    "static/js/main.5d629447.chunk.js"
+    "static/js/main.b05524b5.chunk.js"
   ]
 }
