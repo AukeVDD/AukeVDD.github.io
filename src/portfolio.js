@@ -1,6 +1,9 @@
-import UgentRacingLogo from './img/UgentRacing_logo.png'
+import UGentRacingLogo from './img/UgentRacing_logo.png'
 import MohawkLogo from './img/Mohawk_logo.jpg'
 import UGentLogo from './img/UGent_logo.png'
+import UGentRacingTeam from './img/UGentRacing_Teamfoto.jpg'
+import UGentRacingArtemis from './img/UGentRacingArtemis.jpg'
+import UnilinLogo from './img/UnilinCorporate_Logo_Favicon.png'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -25,33 +28,51 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    name: 'Unilin: Reliability Engineering',
+    description:
+      'Worked on a project to improve the reliability of a conveyor belt system at Unilin. This project involved analyzing the root causes of failures and implementing solutions to prevent them from happening again.',
+    details: 'Worked on a project to improve the reliability of a conveyor belt system at Unilin. This project involved analyzing the root causes of failures and implementing solutions to prevent them from happening again.',
+    stack: ['Reliability Engineering', 'Root Cause Analysis', 'Lean Six Sigma'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+    logo: UnilinLogo,
+    images: [UnilinLogo],
+    id: '#unilin'
+  },
+  {
     name: 'PMSM In-Wheel Motor Design',
     description:
       'Designed a Permanent Magnet Synchronous Motor (PMSM) in-wheel motor for racing applications as part of my Master\'s thesis. This project involved advanced electrical engineering concepts and practical motorsport applications.',
+    details: 'Designed a Permanent Magnet Synchronous Motor (PMSM) in-wheel motor for racing applications as part of my Master\'s thesis. This project involved advanced electrical engineering concepts and practical motorsport applications.',
     stack: ['Electrical Engineering', 'Motor Design', 'Racing Technology'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
-    image: UGentLogo,
+    logo: UGentLogo,
+    images: [UGentLogo], // Add an array of image paths
     id: '#masterthesis'
   },
   {
     name: 'UGent Racing: Electrical Autonomous Race Car',
     description:
       'Part of the Team Electrical High Voltage, responsible for the drivetrain of an electrical autonomous race car. This project combines cutting-edge autonomous technology with high-performance electric vehicle systems.',
+    details: 'Part of the Team Electrical High Voltage, responsible for the drivetrain of an electrical autonomous race car. This project combines cutting-edge autonomous technology with high-performance electric vehicle systems.',
     stack: ['Electrical Systems', 'Autonomous Vehicles', 'Drivetrain Engineering'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
-    image: UgentRacingLogo,
+    logo: UGentRacingLogo,
+    images: [UGentRacingLogo, UGentRacingTeam, UGentRacingArtemis], // Add an array of image paths
     id: '#ugentracing'
   },
   {
     name: 'Univision Computer Vision Implementation',
     description:
       'Worked alongside a service engineer to implement computer vision applications during an internship at Mohawk Industries Inc. This project involved integrating advanced visual recognition systems into industrial processes.',
+    details: 'Worked alongside a service engineer to implement computer vision applications during an internship at Mohawk Industries Inc. This project involved integrating advanced visual recognition systems into industrial processes.',
     stack: ['Computer Vision', 'Industrial Automation', 'Python'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
-    image: MohawkLogo,
+    logo: MohawkLogo,
+    images: [MohawkLogo],
     id: '#univision'
   }
 ]
