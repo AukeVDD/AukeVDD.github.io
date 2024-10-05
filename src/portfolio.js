@@ -4,7 +4,7 @@ import UGentLogo from './img/UGent_logo.png'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://aukevdd.github.io',
+  homepage: 'https://aukevdd.github.io/#top',
   title: 'AV.',
 }
 
@@ -31,7 +31,8 @@ const projects = [
     stack: ['Electrical Engineering', 'Motor Design', 'Racing Technology'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
-    image: UGentLogo
+    image: UGentLogo,
+    id: '#masterthesis'
   },
   {
     name: 'UGent Racing: Electrical Autonomous Race Car',
@@ -40,7 +41,8 @@ const projects = [
     stack: ['Electrical Systems', 'Autonomous Vehicles', 'Drivetrain Engineering'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
-    image: UgentRacingLogo
+    image: UgentRacingLogo,
+    id: '#ugentracing'
   },
   {
     name: 'Univision Computer Vision Implementation',
@@ -49,7 +51,8 @@ const projects = [
     stack: ['Computer Vision', 'Industrial Automation', 'Python'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
-    image: MohawkLogo
+    image: MohawkLogo,
+    id: '#univision'
   }
 ]
 
