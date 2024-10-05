@@ -4,6 +4,8 @@ import UGentLogo from './img/UGent_logo.png'
 import UGentRacingTeam from './img/UGentRacing_Teamfoto.jpg'
 import UGentRacingArtemis from './img/UGentRacingArtemis.jpg'
 import UnilinLogo from './img/UnilinCorporate_Logo_Favicon.png'
+import UGentMotor from './img/FullMotorSetup.png'
+import UGentMotor2 from './img/MotorFlux.jpg'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -17,7 +19,7 @@ const about = {
   role: 'Reliability Engineer',
   description:
     'As a Master of Science in Electrical Engineering with a focus on Automation, I bring a unique blend of technical expertise and practical experience to the field of Reliability Engineering. My background in electromechanical engineering, coupled with hands-on experience in various industrial settings, has honed my skills in maintenance 4.0, root cause analysis, and lean six sigma methodologies. I am passionate about continuous improvement and leveraging cutting-edge technologies to enhance operational efficiency.',
-  resume: 'https://example.com',
+  resume: 'https://drive.google.com/file/d/16HOAHrSAxqe4kgG_QHLSJu0CzCiE4KuO/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/aukevdd/',
     github: 'https://github.com/AukeVDD',
@@ -48,7 +50,7 @@ const projects = [
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
     logo: UGentLogo,
-    images: [UGentLogo], // Add an array of image paths
+    images: [UGentLogo, UGentMotor, UGentMotor2], // Add an array of image paths
     id: '#masterthesis'
   },
   {
